@@ -1,0 +1,112 @@
+
+
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:0px;
+    margin-bottom: 10px;
+    height: 200px;
+    background-image: url("https://yep-seeds.s3.amazonaws.com/images/headerpics.jpeg");
+    // background-image: url("https://player.vimeo.com/video/685610054?background=1&amp;autoplay=1&amp;autopause=0&amp;loop=1&amp;muted=1&amp;playsinline=1&amp;quality=1080p");
+}
+
+.header-left > * {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-left: 1rem;
+    z-index: 100;
+}
+
+.header-middle > * {
+position: absolute;
+top: 3%;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%)
+
+}
+
+.logo{
+    width: 180px;
+    height: 160px;
+}
+
+// .logo:hover{
+//     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+// }
+
+
+.header-right > * {
+    font-size: 14px;
+    // margin-right: 1rem;
+    z-index: 100;
+
+}
+
+.header-show {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.login-font {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login-font-show {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    top:30px;
+    border-radius: 4px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-name{
+    font-size: small;
+    color: white;
+}
+
+.header-name-show {
+    font-size: small;
+    color: black;
+
+}
+
+.header-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 20px;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+

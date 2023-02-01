@@ -1,0 +1,57 @@
+{
+  "name": "Yep",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development",
+    "postinstall": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilshen/Yep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilshen/Yep/issues"
+  },
+  "homepage": "https://github.com/nilshen/Yep#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "babel-loader": "^8.2.5",
+    "logger": "0.0.1",
+    "react": "^18.2.0",
+    "react-css-themr": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-rater": "^6.0.1",
+    "react-rater-plus": "^0.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^5.3.3",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  }
+}

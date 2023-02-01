@@ -1,0 +1,130 @@
+// html, body{
+//     overflow: hidden;
+// }
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+
+}
+
+//session form
+.login-signup {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.login-form-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.homepage-container-bottom{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0px;
+    // background-image: url('https://yep-seeds.s3.amazonaws.com/images/background1.jpg');
+}
+
+.cat-container{
+    border-top: 1px solid #CCCCCC;
+    text-align: center;
+    font-size: medium;
+    display: inline-block;
+    margin-top: 3%;
+    height: auto;
+    // width: 1000px;
+}
+
+// .cat-header{
+//     display: flex;
+//     justify-content: center;
+// }
+
+.cat-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // padding: 0 40px 0 40px;
+}
+.cat-boxes-row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.cat-boxes-row2{
+    display: flex;
+    flex-direction: row;
+}
+.cat-box {
+    // margin: 10px 20px 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    width:240px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    border-color: #e3e3e3;
+    border: 1px solid #ebebeb;
+}
+
+.cat-box:hover {
+    -webkit-text-decoration: underline;
+    // text-decoration: underline;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.cat-box-pic {
+    width: 35px;
+    height: 35px;
+}
+.cat-box-font {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(45,46,47,1);
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+// .homepage-video{
+//     // position: absolute;
+//     // background-repeat: no-repeat;
+//     // background-attachment: fixed;
+//     // background-size: cover;
+//     width: 1500px;
+//     height: 800px;
+//     // z-index: 999;
+//     // width: 100%;
+// }
+
+

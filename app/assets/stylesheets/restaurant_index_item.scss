@@ -1,0 +1,153 @@
+
+
+.index-item-container {
+    display: flex;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 20px;
+    border: 1px solid;
+    border-color: #ebebeb;
+    margin: 10px;
+    // width: 700px;
+    
+}
+
+.index-item-container:hover{
+    // box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), -1px -1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.index-item-individual {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(110,112,114,1);
+    text-align: left;
+    
+}
+
+
+.index-item-individual-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.reviews-length{
+    margin-left: 5px;
+    padding: 2.5px;
+}
+
+.index-pic {
+    object-fit: cover;
+    width: 190px;
+    height: 190px;
+    margin-top: 3px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+.index-item-individual-details {
+    // margin-right: 20px;
+    display: flex;
+    font-size: small;
+    // flex-direction: column;
+    // justify-content: space-between;
+
+}
+
+
+
+.index-item-individual-details-cat {
+
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 12px;
+    color: rgba(110,112,114,1);
+    padding: 4px;
+    background: transparent;
+    border: none !important;
+}
+
+.index-item-individual-details-dollar{
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.index-item-individual-hour {
+    font-size: small;
+    padding: 4px;
+}
+
+.index-item-comment{
+    padding: 4px;
+}
+.review-body {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    // line-height: 20px;
+    color: rgba(110,112,114,1);
+    text-align: start;
+    margin-left: 5px;
+
+    text-overflow: ellipsis;
+    width: 420px; 
+    white-space: nowrap; 
+    overflow: hidden
+}
+
+
+.rating-star-indexItem {
+    // display: none;
+    color: red;
+    z-index: -1;
+    // background-color: #ebebeb;
+    // border-radius: 5px;
+    // margin-right: 5px;
+    // background-color: #f52d2d;
+
+}
+
+.index-item-namefont{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(45,46,47,1);
+    text-align: start;
+    margin-top: 2px;
+}
+
+.index-item-comment{
+    display: flex;
+    flex-direction: row;
+}

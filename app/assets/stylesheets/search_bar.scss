@@ -1,0 +1,168 @@
+// .searchbar-parent{
+//     position: relative;
+// }
+
+
+.searchbar-container{
+    // position: absolute;
+    // left: 25%;
+    // transform: translate(-50%, -50%);
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    position: absolute;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%)
+
+// position: absolute;
+// left: 0;
+// right: 0;
+// margin: auto
+
+}
+
+.searchbar-container-bar {
+    // border: 1px solid #CCCCCC;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    // width: 50%;
+    // width:50%;
+    // height: 50px;
+    
+    
+    input {
+        width: 300px;
+        height: 40px;
+        padding-left: 10px;
+        outline: none;
+    }
+}
+
+.searchbar-container-result{
+
+    display: flex;
+    justify-content: start;
+
+    // position: fixed;
+    // min-height: 720px;
+    // width: 314px;
+    width: 55%;
+
+    // overflow-y: scroll;
+    background:whitesmoke;
+    // margin-left: 10px;
+    // padding-right: 20px;
+    // border-radius: 10px;
+    z-index: 999;
+}
+
+.searchbar-container-result-hidden {
+    display: none;
+}
+
+.searchbar-restaurant {
+    font-size: 18px;
+    color: #666;
+    font-weight: 700;
+    size: 50;
+}
+
+.searchbar-location{
+    font-size: 18px;
+    color: #666;
+    font-weight: 700;
+    size: 50;
+}
+
+
+.searchbar-default {
+    font-size: large;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.searchbar-icon {
+    background-color: rgb(244,13,21);
+    color: white;
+    font-size: 21.5px;
+    border: 1px solid rgb(244,13,21);
+    border-radius: 0px 3px 3px 0px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: -0.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchbar-icon:hover {
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+.index-item-container-searchbar{
+    display: flex;
+    flex-direction: row;
+    // background-color: white;
+}
+.index-pic-searchbar {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: -30px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+
+.search-results {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        -webkit-letter-spacing: 0px;
+        -moz-letter-spacing: 0px;
+        -ms-letter-spacing: 0px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        color: #2d2e2f;
+        text-align: start;
+        margin: 10px;
+}
+
+//no search result
+
+// .no-search-result{
+//     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+//     font-size: 18px;
+//     font-weight: 600;
+//     -webkit-letter-spacing: 0px;
+//     -moz-letter-spacing: 0px;
+//     -ms-letter-spacing: 0px;
+//     letter-spacing: 0px;
+//     line-height: 24px;
+//     color: #2d2e2f;
+//     text-align: start;
+//     margin-top: 2px;
+// }
+
+// .pre-search-users-container {
+//     display:flex;
+//     justify-content: center;
+//     position: fixed;
+//     // min-height: 720px;
+//     // width: 320px;
+//     overflow-y: scroll;
+//     background: white;
+//     // margin-left: 10px;
+//     // padding-right: 20px;
+//     // border-radius: 10px;
+// }
+// .pre-search-users-container-hidden {
+//     display: hidden;
+// }

@@ -1,0 +1,299 @@
+.show-page-container{
+    // font-family: inherit;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.show-header {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // grid-auto-rows: 1fr;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-column-gap: 100px;
+}
+
+.show-header-item{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+}
+
+.show-logo {
+    margin: 0px;
+    width: 90px;
+    height: 80px;
+}
+
+.show-header-item {
+    margin: 0px;
+}
+
+
+.show-body-pic{
+    z-index: -1;
+}
+
+.show-pics {
+    display: flex;
+    margin-top: -30px;
+}
+
+.show-pic{
+    z-index: -1;
+    width: 33.3%;
+    height: 330px;
+    object-fit: cover;
+    filter: brightness(70%);
+    margin-top: 20px;
+}
+
+.show-header {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // grid-auto-rows: 1fr;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-column-gap: 100px;
+}
+
+.show-header-item{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+}
+
+
+.show-logo {
+    margin: 0px;
+    width: 90px;
+    height: 80px;
+}
+
+.show-header-item {
+    margin: 0px;
+}
+.show-header {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // grid-auto-rows: 1fr;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-column-gap: 100px;
+
+}
+
+.show-header-item{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+}
+
+.show-logo {
+    margin: 0px;
+    width: 90px;
+    height: 80px;
+}
+
+.show-header-item {
+    margin: 0px;
+}
+
+.show-body-info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: -180px;
+    margin-left: 20%;
+    color: aliceblue;
+}
+
+.show-body-info-name{
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-letter-spacing: -0.4px;
+    -moz-letter-spacing: -0.4px;
+    -ms-letter-spacing: -0.4px;
+    letter-spacing: -0.4px;
+    line-height: 56px;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    color: #fff;
+    display: inline;
+    margin-bottom: 8px;
+}
+
+.show-body-review {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.show-body-cat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    // font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border-radius: 3px;
+    // -webkit-text-decoration: none;
+    // text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.show-claimed {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(31,142,255,1);
+    text-align: left;
+    margin-right: 5px;
+    padding: 0.1px;
+}
+
+.show-money {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+    margin-right: 5px;
+}
+
+.show-cat {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.show-hour {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+}
+
+.show-body{
+    margin-left: 5%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.show-body-reviewButton{
+    text-decoration: none;
+    align-items: center;
+    appearance: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: auto;
+    background-color: rgba(224,7,7,1);
+    color: rgba(255,255,255,1);
+    z-index: -1;
+}
+
+.show-header-item-star{
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 3px;
+}   
+
+.show-header-item-text{
+    margin-bottom: 10px;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.show-body-otherinfo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 16px;
+    object-fit: cover;
+    width: 300px;
+}
+
+.show-body-website {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 5px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border-radius: 3px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(2,122,151,1);
+    font-size: inherit;
+}
+.show-body-phone{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 5px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(45,46,47,1);
+    text-align: left;
+}
+
+.show-body-address{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(110,112,114,1);
+    text-align: left;
+}
+
+
+

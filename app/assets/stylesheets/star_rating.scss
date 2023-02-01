@@ -1,0 +1,147 @@
+.create-review-form-rating-wrapper, .edit-review-form-rating-wrapper {
+  display: flex;
+}
+
+.create-form-stars-container, .edit-form-stars-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  #rating-1 {
+      display: none;
+      &:checked ~ label, &:hover ~ label {
+          background-color: #f52d2d;
+      }
+  }
+
+  #rating-2 {
+      display: none;
+      &:checked ~ label, &:hover ~ label {
+          background-color: orangered;
+      }
+  }
+  #rating-3 {
+      display: none;
+      &:checked ~ label, &:hover ~ label {
+          background-color: rgb(255, 123, 0);
+      }
+  }
+  #rating-4 {
+      display: none;
+      &:checked ~ label, &:hover ~ label {
+          background-color: rgb(255, 174, 23);
+      }
+  }
+  #rating-5 {
+      display: none;
+      &:checked ~ label, &:hover ~ label {
+          background-color: gold;
+      }
+  }
+
+  label {
+      background-color: #ebebeb;
+      border-radius: 5px;
+      margin:2px
+  }
+}
+
+.review-star {
+  color: white;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  padding: 5px;
+  word-spacing: 4px;
+}
+
+.select-your-rating {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  // line-height: 20px;
+  color: rgb(67, 67, 68);
+  margin-top: 30px;
+  margin-left: 10px;
+  letter-spacing: 0.2px;
+}
+
+
+
+
+
+
+//react-rater
+
+// $react-rater-link: #ccc !default; // color of star not rated
+// $react-rater-hover: rgb(240, 198, 119) !default; // color of star on hover
+// $react-rater-active: orange !default; // color of star rated
+
+$react-rater-link: #ccc !default; // color of star not rated
+$react-rater-hover: rgb(240, 198, 119) !default; // color of star on hover
+$react-rater-active: #ebebeb;; // color of star rated
+
+.react-rater {
+  display: inline-block;
+  line-height: normal;
+  > * {
+    display: inline-block;
+  }
+}
+.react-rater-star {
+
+    background-color: #ebebeb;
+    border-radius: 5px;
+    margin-right: 1px;
+    margin-top: 2px;
+    margin-left: 1px;
+    font-size: 12px;
+    padding: 2px 4px 2px 4px;
+    word-spacing: 4px;
+  cursor: pointer;
+  color: $react-rater-link;
+  position: relative;
+  &.will-be-active {
+    color: $react-rater-hover;
+  }
+  &.is-active {
+    color: $react-rater-active;
+    background-color: #f52d2d;
+  }
+  &.is-active-half:before {
+    color: $react-rater-active;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  &.is-disabled {
+    cursor: default;
+  }
+}
+
+//non interactive (testing)
+// .react-rater-star {
+
+//   // background-color: #ebebeb;
+//   border-radius: 5px;
+//   margin-right: 1px;
+//   margin-top: 2px;
+//   margin-left: 1px;
+//   font-size: 12px;
+//   padding: 0px 4px 1px 4px;
+//   word-spacing: 4px;
+// cursor: pointer;
+// color: $react-rater-link;
+// position: relative;
+// background-color: gold;
+
+// }
+
+
+
+
+

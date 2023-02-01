@@ -1,0 +1,101 @@
+// Place all the styles related to the api/sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.login-form-container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+
+.session-body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.session-form-left {
+    max-width: 300px;
+  }
+  
+  .session-form-right {
+    margin-left: 100px;
+  }
+
+  .session-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.session-topwords {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  
+  font-size: 21px;
+  line-height: 1.28571em;
+  color: #d32323;
+  display: flex;
+  flex-direction: row;
+}
+
+.session-topwords2 {
+  font-weight: bold;
+}
+
+  .term {
+    margin-top: 6px;
+    color: #333;
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+
+  .login-input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    *width: 90%;
+    // margin-bottom: 1px;
+    padding: 5px 9px;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.28571em;
+    line-height: 1.29em;
+  }
+
+  .session-submit {
+    // padding: 8px 10px;
+    font-size: 16px;
+    // line-height: 1.3125em;
+    color: #fff;
+    background: #d32323;
+    border: 1px solid #d32323;
+    margin-bottom: 3px;
+    background-image: none;
+    background-repeat: no-repeat;
+    transition: all 0.6s;
+    transition-property: background-color, background-position, background-size, border-color;
+    background-position: 50% 50%;
+    background-size: 15000px 15000px;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+  .login-box-username {
+    margin-bottom: 3px;
+  }
